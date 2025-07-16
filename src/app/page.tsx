@@ -5,6 +5,8 @@ export default function Home () {
     <h1>Wellcome Home!</h1>
     <Link href="/products">Products</Link>
     <Link href="/docs">Docs</Link>
+    <Link href="/complex-dashboard">Dashboard</Link>
+
     </> 
 
 }
