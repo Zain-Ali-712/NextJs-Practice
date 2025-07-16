@@ -1,3 +1,4 @@
+import Products from "@/app/products/page";
 import { Metadata } from "next";
 
 export const metadata:Metadata ={
@@ -28,5 +29,8 @@ export default async function Docs({
             <h1>Doc for feature {slug[0]}</h1>
         );
     }
-    return <h1>Docs home page</h1>
+    return (
+        <h1>Docs home page</h1>
+
+    );
 }
