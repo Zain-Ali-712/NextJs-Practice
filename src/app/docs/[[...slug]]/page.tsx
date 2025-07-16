@@ -1,3 +1,11 @@
+import { Metadata } from "next";
+
+export const metadata:Metadata ={
+    title:{
+        absolute:"Docs"
+    },
+}
+
 export default async function Docs({
     params,
 }:{ 
